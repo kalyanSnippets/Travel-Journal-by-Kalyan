@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+/* Navbar Component */
+
+
+.header {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 60px;
+  color: white;
+  font-weight: 600;
+  /* font-size: 14.4608px;
+  line-height: 1.2em;
+  letter-spacing: -0.075em;
+  width: 100%; */
+      
+}
+
+/* Card Component*/
+
+
+.card{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row;
+  /* border: 1px solid black; */
+  justify-content: center;
+  padding: 30px 15px;
+  max-width: 700px;
+  gap: 15px;
+  margin: 0 auto;
+  
+  
+}
+.card > img{
+  width: 170px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card--location{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.card--location > i {
+  color:#F55A5A;
+}
+
+.card--location > span{
+  letter-spacing: 3px;
+}
+
+.card--location > a{
+  color:#918E9B;
+  text-decoration: none;
+}
+
+.card--location > a:hover{
+  text-decoration: underline;
+}
+
+.card--main {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+
+.card--main > h1{
+  margin: 0;
+}
+.card--main > h5{
+  margin: 20px 0 5px 0;;
+}
+.card--main > p{
+  margin: 0;
+}
+.card-bottom {
+  border-bottom: 1px solid #F5F5F5;
+}
+
